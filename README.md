@@ -16,13 +16,12 @@
 
 <img src="https://tex.s2cms.ru/svg/%20u(0%2C%5C%2Ct)%20%5C%3A%20%3D%20%5C%3A%20%5Cmu_1(t)%2C%20%5Cquad%20u(1%2C%5C%2Ct)%20%5C%3A%20%3D%20%5C%3A%20%5Cmu_2(t)%20%5C%2C%2C%20%5C%3A%20t%20%5C%2C%20%5Cin%20%20%5C%2C%20%5B0%2C%20%5C%2C%201%5D%20" alt=" u(0,\,t) \: = \: \mu_1(t), \quad u(1,\,t) \: = \: \mu_2(t) \,, \: t \, \in  \, [0, \, 1] " />
 
-При   <img src="https://tex.s2cms.ru/svg/%20a%20%5C%3A%20%3D%200.017%5C%2C%2C%20%0A%20%5Cquad%20u(x%2Ct)%20%5C%3A%20%3D%20%5C%3A%20-x%5E4%20%5C%3A%20%2B%20%5C%3A%20tx%20%5C%3A%20%2B%20t%5E2%20%5C%3A%20-%20te%5Ex%20" alt=" a \: = 0.017\,, 
- \quad u(x,t) \: = \: -x^4 \: + \: tx \: + t^2 \: - te^x " />.
+<img src="https://tex.s2cms.ru/svg/%20a%20%5C%3A%20%3D%200.017%5C%2C%2C%20%0A%20%5Cquad%20u(x%2Ct)%20%5C%3A%20%3D%20%5C%3A%20-x%5E4%20%5C%3A%20%2B%20%5C%3A%20tx%20%5C%3A%20%2B%20t%5E2%20%5C%3A%20-%20te%5Ex.%20" alt=" a \: = 0.017\,, 
+ \quad u(x,t) \: = \: -x^4 \: + \: tx \: + t^2 \: - te^x. " />
 
                             Схема Кранка-Николсона 
 
-<img src="https://tex.s2cms.ru/svg/%20%5Cfrac%7Bu%5E%7Bj%2B1%7D_k%20%5C%3A%20-%20%5C%3A%20u%5Ej_k%7D%7B%5Ctau%7D%20%5C%3A%20%3D%20%5C%3A%20a%5CBiggl(%5Cfrac%7Bu%5E%7Bj%2B1%7D_%7Bk%2B1%7D%20%5C%3A%20-%20%5C%3A%202u%5E%7Bj%2B1%7D_%7Bk%7D%20%5C%3A%20%2B%20%5C%3A%20u%5E%7Bj%2B1%7D_%7Bk-1%7D%7D%7B2h%5E2%7D%20%2B%20%5C%3A%20%5Cfrac%7Bu%5E%7Bj%7D_%7Bk%2B1%7D%20%5C%3A%20-%20%5C%3A%202u%5E%7Bj%7D_%7Bk%7D%20%5C%3A%20%2B%20%5C%3A%20u%5E%7Bj%7D_%7Bk-1%7D%7D%7B2h%5E2%7D%20%5CBiggr)%20%5C%3A%20%2B%20%5C%3A%20f%5E%7Bj%2B1%7D_k%20%5C%3A%20%5Ccdot%0A%20" alt=" \frac{u^{j+1}_k \: - \: u^j_k}{\tau} \: = \: a\Biggl(\frac{u^{j+1}_{k+1} \: - \: 2u^{j+1}_{k} \: + \: u^{j+1}_{k-1}}{2h^2} + \: \frac{u^{j}_{k+1} \: - \: 2u^{j}_{k} \: + \: u^{j}_{k-1}}{2h^2} \Biggr) \: + \: f^{j+1}_k \: \cdot
- " />
+<img src="https://tex.s2cms.ru/svg/%20%5Cfrac%7Bu%5E%7Bj%2B1%7D_k%20%5C%3A%20-%20%5C%3A%20u%5Ej_k%7D%7B%5Ctau%7D%20%5C%3A%20%3D%20%5C%3A%20a%5CBiggl(%5Cfrac%7Bu%5E%7Bj%2B1%7D_%7Bk%2B1%7D%20%5C%3A%20-%20%5C%3A%202u%5E%7Bj%2B1%7D_%7Bk%7D%20%5C%3A%20%2B%20%5C%3A%20u%5E%7Bj%2B1%7D_%7Bk-1%7D%7D%7B2h%5E2%7D%20%2B%20%5C%3A%20%5Cfrac%7Bu%5E%7Bj%7D_%7Bk%2B1%7D%20%5C%3A%20-%20%5C%3A%202u%5E%7Bj%7D_%7Bk%7D%20%5C%3A%20%2B%20%5C%3A%20u%5E%7Bj%7D_%7Bk-1%7D%7D%7B2h%5E2%7D%20%5CBiggr)%20%5C%3A%20%2B%20%5C%3A%20f%5E%7Bj%2B1%7D_k%20%5C%3A%20%5Ccdot" alt=" \frac{u^{j+1}_k \: - \: u^j_k}{\tau} \: = \: a\Biggl(\frac{u^{j+1}_{k+1} \: - \: 2u^{j+1}_{k} \: + \: u^{j+1}_{k-1}}{2h^2} + \: \frac{u^{j}_{k+1} \: - \: 2u^{j}_{k} \: + \: u^{j}_{k-1}}{2h^2} \Biggr) \: + \: f^{j+1}_k \: \cdot" />
  
  
  3.Решение задачи Дирихле для для уравнения переноса 
@@ -33,7 +32,7 @@
 
 <img src="https://tex.s2cms.ru/svg/%20u(0%2C%5C%2Ct)%20%5C%2C%20%3D%20%5C%2C%20g_1(t)%2C%20%5C%3A%20t%20%5C%2C%20%5Cin%20%20%5C%2C%20%5B0%2C%20%5C%2C%201%5D.%20%20" alt=" u(0,\,t) \, = \, g_1(t), \: t \, \in  \, [0, \, 1].  " />
 
-При <img src="https://tex.s2cms.ru/svg/%20a%20%5C%2C%20%3D%20%5C%2C%200.26%5C%2C%2C%20u(x%2C%20%5C%2C%20t)%20%5C%2C%20%3D%20%5C%2C%20%5Ccos(%5Cpi%20x)%20%5C%2C%20-%20%5C%2C%20%5Csin(2%5Cpi%20t)%2F2%20%5C%2C%20%2B%20%5C%2C%202%5Cpi%20x%20%5C%2C%20-%20%5C%2C%203.5t." alt=" a \, = \, 0.26\,, u(x, \, t) \, = \, \cos(\pi x) \, - \, \sin(2\pi t)/2 \, + \, 2\pi x \, - \, 3.5t." />
+<img src="https://tex.s2cms.ru/svg/%20a%20%5C%2C%20%3D%20%5C%2C%200.26%5C%2C%2C%20u(x%2C%20%5C%2C%20t)%20%5C%2C%20%3D%20%5C%2C%20%5Ccos(%5Cpi%20x)%20%5C%2C%20-%20%5C%2C%20%5Csin(2%5Cpi%20t)%2F2%20%5C%2C%20%2B%20%5C%2C%202%5Cpi%20x%20%5C%2C%20-%20%5C%2C%203.5t." alt=" a \, = \, 0.26\,, u(x, \, t) \, = \, \cos(\pi x) \, - \, \sin(2\pi t)/2 \, + \, 2\pi x \, - \, 3.5t." />
 
                        Неявная схема бегущего счёта
 
