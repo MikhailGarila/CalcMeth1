@@ -45,6 +45,8 @@
 <img src="https://tex.s2cms.ru/svg/%20-a%5Cfrac%7B%5Cpartial%5E2%20u%7D%7B%5Cpartial%5E2%20x%7D%20%5C%3A%20-%20%5C%3A%20b%5Cfrac%7B%5Cpartial%5E2%20u%7D%7B%5Cpartial%5E2%20y%7D%20%5C%3A%20%3D%20%5C%3A%20f(x%2C%5C%2Cy)%20%5C%2C%2C%5C%3A%20x%5C%2C%2C%20y%20%5C%2C%20%5Cin%20%20%5C%2C%20D%5C%2C%2C%0Au%7C_%5CGamma%20%5C%3A%20%3D%20%5C%3A%20%5Cvarphi(x%2C%5C%2Cy)%20%5C%2C%2C%5C%3A%20x%5C%2C%2C%20y%20%5C%2C%20%5Cin%20%20%5C%2C%20%5Cpartial%20D%5C%2C%20" alt=" -a\frac{\partial^2 u}{\partial^2 x} \: - \: b\frac{\partial^2 u}{\partial^2 y} \: = \: f(x,\,y) \,,\: x\,, y \, \in  \, D\,,
 u|_\Gamma \: = \: \varphi(x,\,y) \,,\: x\,, y \, \in  \, \partial D\, " />
 
+<img src="https://tex.s2cms.ru/svg/a%20%5C%3A%20%3D%5C%3A1.2%5C%2C%2C%20%5C%3A%20b%20%5C%3A%20%3D%20%5C%3A%200.9%5C%2C%2C%20%5C%3A%20u%20%3D%20y%5E2sin(x)%20%2B%20xe%5Ey%20%5C%3A-%5C%3A1%20" alt="a \: =\:1.2\,, \: b \: = \: 0.9\,, \: u = y^2sin(x) + xe^y \:-\:1 " />
+
 методом верхней релаксации используя 5-и точечную схему <img src="https://tex.s2cms.ru/svg/%20(A%5Ehu)_%7Bij%7D%20%5C%3A%20%3D%20%5C%3A%20f_%7Bij%7D%3A" alt=" (A^hu)_{ij} \: = \: f_{ij}:" />
 
 <img src="https://tex.s2cms.ru/svg/%20-a%5Cfrac%7Bu_%7Bi-1%2Cj%7D%20%5C%3A%20-%20%5C%3A%202u_%7Bi%2Cj%7D%20%5C%3A%20%2B%20%5C%3A%20u_%7Bi%2B1%2Cj%7D%7D%7B2h%5E2%7D%20%5C%3A%20-%20%5C%3A%20b%5Cfrac%7Bu_%7Bi%2Cj-1%7D%20%5C%3A%20-%20%5C%3A%202u_%7Bi%2Cj%7D%20%5C%3A%20%2B%20%5C%3A%20u_%7Bi%2Cj%2B1%7D%7D%7B2h%5E2%7D%20%5C%3A%20%3D%20%5C%3A%20f_%7Bij%7D" alt=" -a\frac{u_{i-1,j} \: - \: 2u_{i,j} \: + \: u_{i+1,j}}{2h^2} \: - \: b\frac{u_{i,j-1} \: - \: 2u_{i,j} \: + \: u_{i,j+1}}{2h^2} \: = \: f_{ij}" />
